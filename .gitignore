@@ -1,0 +1,44 @@
+# Vivado project files to ignore
+*.jou
+*.log
+*.str
+*.webtalk
+*.xpr
+*.cache
+*.hw
+*.ip_user_files/
+*.sim/
+*.runs/
+*.data/
+*.ltx
+*.backup/
+*.autosave/
+
+# Synthesis and implementation output directories
+/synth_*/
+/impl_*/
+/sim_*/
+
+# Temporary and backup files
+*~
+*.bak
+*.orig
+*.tmp
+*.sv~
+*.v~
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor backup files
+.vscode/
+*.swp
+*.swo
+
+# Other generated files
+*.summary
+*.xml
+
+# Ignore constraint files if generated (optional, keep if you manage manually)
+/*.xdc.generated
