@@ -42,3 +42,5 @@ Thumbs.db
 
 # Ignore constraint files if generated (optional, keep if you manage manually)
 /*.xdc.generated
+
+*.exe
